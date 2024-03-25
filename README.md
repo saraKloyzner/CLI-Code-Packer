@@ -8,7 +8,7 @@ This Command Line Interface (CLI) tool allows you to package code files into a s
 
 ## Usage
 1. Ensure the CLI executable is added to the PATH environment variable for easy access.
-2. Run the CLI application using the assigned short name.
+2. Run the CLI application using the short name: ```cli```.
 3. Use the following commands for packaging files and creating response files:
 
 ### Command: bundle
@@ -26,7 +26,7 @@ shortname bundle --language [all/certain languages] --output [bundle filename] -
 
 ### Command: create-rsp
 ```bash
-shortname create-rsp
+cli create-rsp
 ```
 This command will guide you through creating a response file with all the required options for the `bundle` command.
 
